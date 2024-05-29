@@ -1,0 +1,28 @@
+{
+    "lang": "dansk",
+
+    "dateFormat": "DD-MM-YYYY HH:mm",
+    "details": "detaljer",
+    "download": "download",
+    "displayAll": "Vis ALLE",
+    "empty": "tom",
+    "files": "filer",
+    "filter": "filter",
+    "folders": "mapper",
+    "grid": "grid",
+    "icons": "ikoner",
+    "info": "Oplysninger",
+    "language": "Sprog",
+    "lastModified": "Sidst ændret",
+    "name": "Navn",
+    "noMatch": "ingen match",
+    "pagination": "Paginering",
+    "pagInputBtn": "GÅ",
+    "pagInputTxt": "side",
+    "parentDirectory": "Overordnet mappe",
+    "perPage": "### pr. Side",
+    "search": "søge",
+    "size": "Størrelse",
+    "tree": "Træ",
+    "view": "Disposition"
+}

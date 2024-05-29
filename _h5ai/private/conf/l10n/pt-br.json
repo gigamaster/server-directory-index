@@ -1,0 +1,28 @@
+{
+    "lang": "português do Brasil",
+
+    "dateFormat": "DD-MM-YYYY HH:mm",
+    "details": "detalhes",
+    "download": "download",
+    "displayAll": "Exibir TODOS",
+    "empty": "vazio",
+    "files": "arquivos",
+    "filter": "filtro",
+    "folders": "pastas",
+    "grid": "grade",
+    "icons": "ícones",
+    "info": "Informações",
+    "language": "Idioma",
+    "lastModified": "Última modificação",
+    "name": "Nome",
+    "noMatch": "sem resultados",
+    "pagination": "Paginação",
+    "pagInputBtn": "IR",
+    "pagInputTxt": "pagina",
+    "parentDirectory": "Diretório acima",
+    "perPage": "### por pagina",
+    "search": "pesquisa",
+    "size": "Tamanho",
+    "tree": "Árvore",
+    "view": "Disposição"
+}

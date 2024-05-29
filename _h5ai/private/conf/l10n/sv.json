@@ -1,0 +1,27 @@
+{
+    "lang": "svenska",
+
+    "details": "detaljerad",
+    "download": "ladda ner",
+    "displayAll": "Visa ALLA",
+    "empty": "tom",
+    "files": "filer",
+    "filter": "filtrera",
+    "folders": "kataloger",
+    "grid": "rutnät",
+    "icons": "ikoner",
+    "info": "Information",
+    "language": "Språk",
+    "lastModified": "Senast ändrad",
+    "name": "Filnamn",
+    "noMatch": "ingen matchning",
+    "pagination": "Paginering",
+    "pagInputBtn": "GÅ",
+    "pagInputTxt": "sida",
+    "parentDirectory": "Till överordnad mapp",
+    "perPage": "### per sida",
+    "search": "sök",
+    "size": "Filstorlek",
+    "tree": "Trädstruktur",
+    "view": "Arrangemang"
+}
