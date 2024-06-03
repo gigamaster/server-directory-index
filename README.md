@@ -4,6 +4,8 @@
 
 Web server directory index customization with preview, pagination, download — h5ai.
 
+![SDI h5ai screenshot](https://repository-images.githubusercontent.com/806409657/7e051d9f-5900-4ff1-9b1c-d96cfd9bfbd6)
+
 ---
 
 ## SDI — h5ai
