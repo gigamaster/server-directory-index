@@ -1,7 +1,5 @@
 ## details here: https://github.com/h5bp/server-configs-apache
 
-
-
 ## SECURITY ###################################################################
 
 DirectoryIndex disabled
@@ -30,8 +28,6 @@ ServerSignature Off
     Options -Indexes
 </IfModule>
 
-
-
 ## COMPAT #####################################################################
 
 AddDefaultCharset utf-8
@@ -53,8 +49,6 @@ AddDefaultCharset utf-8
     AddType text/css                                    css
     AddType text/html                                   html
 </IfModule>
-
-
 
 ## SPEED ######################################################################
 

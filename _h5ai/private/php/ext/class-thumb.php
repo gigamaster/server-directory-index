@@ -16,8 +16,8 @@ class Thumb {
         'mov' => ['vid-mp4', 'vid-webm', 'vid-rm', 'vid-mpg', 'vid-avi', 'vid-mkv', 'vid-mov'],
         'doc' => ['x-ps', 'x-pdf'],
         'swf' => ['vid-swf', 'vid-flv'],
-/*         'ar-zip' => ['ar', 'ar-zip', 'ar-cbr'],
-        'ar-rar' => ['ar-rar'], */
+        'ar-zip' => ['ar', 'ar-zip', 'ar-cbr'],
+        'ar-rar' => ['ar-rar'],
         'file' => ['file']
     );
 

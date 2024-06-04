@@ -1,12 +1,14 @@
-/* h5ai v1.00.0 - https://larsjung.de/h5ai/ */
+/* server-directory-index-h5ai v1.00.0 - https://github.com//gigamaster/server-directory-index */
+/* h5ai v0.30.0 - https://larsjung.de/h5ai/ */
 {
     /*
     Password hash.
 
-    SHA512 hash of the info page password, the preset password is the empty string.
+    SHA512 hash of the info page password, the preset password is : sdi-h5ai-202405
+    Chamge this with your own password.
     Online hash generator: http://md5hashing.net/hashing/sha512
     */
-    "passhash": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e",
+    "passhash": "c8b51b0ee77ccc0a44f0f2aa98eb7ddff3a3a35ebb8c38b500dc18615bc942cab0ade28b0ad1a7dbd872cbdd50cbba613e11003bf9cb942b1564d5cce1c95b09",
 
     /*
     Resources.
@@ -19,10 +21,13 @@
     - styles: array of strings
     */
     "resources": {
-        "scripts": [],
+        "scripts": [
+          "copycode.js"
+        ],
         "styles": [
             // include this if you do not use the standard theme
-            // "pdfjs.css"
+           //"fonts.google.css"
+          "pdfjs.css"
         ]
     },
 
@@ -93,7 +98,8 @@
 
         "hidden": [
             "^\\.",
-            "^_h5ai"
+            "^_h5ai",
+            "^pdfjs"
         ],
         "hideFolders": false,
         "hideIf403": true,
@@ -113,7 +119,7 @@
             180,
             220
         ],
-        "theme": "comity",
+        "theme": "default",
         "unmanaged": [
             "index.html",
             "index.htm",
@@ -231,8 +237,8 @@
         "enabled": true,
         "show": true,
         "qrcode": true,
-        "qrFill": "#999",
-        "qrBack": "#fff"
+        "qrFill": "#212528",
+        "qrBack": "#abc"
     },
 
     /*
@@ -315,26 +321,40 @@
             "txt-c": 3,
             "txt-cpp": 3,
             "txt-css": 3,
+            "txt-dart": 3,
             "txt-diff": 1,
+            "txt-elixir": 3,
+            "txt-env": 1,
+            "txt-git": 1,
             "txt-go": 3,
             "txt-h": 3,
+            "txt-haskell": 3,
+            "txt-haxe": 3,
             "txt-hpp": 3,
             "txt-install": 1,
+            "txt-java": 3,
             "txt-js": 3,
             "txt-json": 3,
+            "txt-kotlin": 3,
             "txt-less": 3,
             "txt-license": 1,
             "txt-log": 1,
+            "txt-lua": 3,
             "txt-makefile": 1,
             "txt-md": 2,
             "txt-php": 3,
             "txt-py": 3,
+            "txt-reg": 1,
             "txt-rb": 3,
             "txt-readme": 1,
             "txt-rtf": 1,
             "txt-rust": 3,
+            "txt-sass": 3,
+            "txt-scala": 3,
             "txt-sqlite": 3,
             "txt-script": 3,
+            "txt-svelte": 3,
+            "txt-tex": 3,
             "txt-ts": 3,
             "txt-vue": 3,
             "txt-xml": 1
@@ -388,7 +408,7 @@
     - ignorecase: boolean, ignore case
     */
     "search": {
-        "enabled": false,
+        "enabled": true,
         "advanced": true,
         "debounceTime": 300,
         "ignorecase": true
@@ -450,8 +470,8 @@
             "img-ico",
             "img-jpg",
             "img-png",
-			      "img-svg",
-			      "img-tiff"
+            "img-svg",
+            "img-tiff"
         ],
         "mov": [
             "vid-avi",
@@ -460,9 +480,9 @@
             "vid-mov",
             "vid-mp4",
             "vid-mpg",
-			      "vid-swf",
+            "vid-swf",
             "vid-webm",
-			      "vid-wmv"
+            "vid-wmv"
         ],
         "doc": [
             "x-pdf",
