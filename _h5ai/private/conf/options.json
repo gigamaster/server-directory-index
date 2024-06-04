@@ -21,9 +21,7 @@
     - styles: array of strings
     */
     "resources": {
-        "scripts": [
-          "copycode.js"
-        ],
+        "scripts": [],
         "styles": [
             // include this if you do not use the standard theme
            //"fonts.google.css"
