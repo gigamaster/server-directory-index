@@ -209,7 +209,7 @@
     - type: string, "php" (sloooow) or "shell-du" (sloow)
     */
     "foldersize": {
-        "enabled": true,
+        "enabled": false,
         "type": "php"
     },
 

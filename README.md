@@ -4,6 +4,11 @@
 
 Web server directory index customization with preview, pagination, download — h5ai.
 
+---
+
+![SDI h5ai screenshot](screen.png)
+
+
 ## SDI — h5ai
 
 Unpack server directory index h5ai to your `/www/public/*.*`   
@@ -30,9 +35,7 @@ otherwise you'll get a browser error :
 
 See [Apache httpd, lighttpd, and nginx][wiki] to add <code>.mjs</code> JavaScript MIME type. 
 
----
 
-![SDI h5ai screenshot](screen.png)
 
 ---
 
